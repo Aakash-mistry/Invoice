@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/", invoiceRoute);
 
 // ? Server setups
-app.listen(process.env.PORT || 8000, (err) => {
+app.listen(process.env.PORT || 2000, (err) => {
      if (err) console.log(err);
      else console.log("server is up and running");
 });

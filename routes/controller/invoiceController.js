@@ -21,6 +21,7 @@ exports.createNewInvoice = async (req, res) => {
           invoiceName: req.body.invoiceName,
           amount: req.body.totalAmount,
           properties: req.body.properties,
+          image: req.body.image,
      });
 
      await newInvoice.save();

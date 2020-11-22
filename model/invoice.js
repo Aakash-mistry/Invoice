@@ -28,6 +28,10 @@ const invoiceSchema = new mongoose.Schema(
                required: true,
                trim: true,
           },
+          image: {
+               type: mongoose.Schema.Types.String,
+               required: true,
+          },
      },
      {
           timestamps: true,
